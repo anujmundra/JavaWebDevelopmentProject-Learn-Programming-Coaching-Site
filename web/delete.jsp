@@ -10,7 +10,7 @@
             }
         %>
         <h2>Learn Programming</h2>
-        <h3>Delete Batch/Delete Course</h3>
+        <h2>Delete Batch/Delete Course</h2>
         <hr>
         <h2><a href="deletebatch.jsp">Delete Batch</a></h2>
         <h2><a href="deletecourse.jsp">Delete Course</a></h2>

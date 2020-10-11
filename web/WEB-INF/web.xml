@@ -48,6 +48,14 @@
         <servlet-name>DeleteCourse</servlet-name>
         <servlet-class>DeleteCourse</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>DeleteBatch</servlet-name>
+        <servlet-class>DeleteBatch</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>DeleteFaculty</servlet-name>
+        <servlet-class>DeleteFaculty</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>SaveUser</servlet-name>
         <url-pattern>/SaveUser</url-pattern>
@@ -95,6 +103,14 @@
     <servlet-mapping>
         <servlet-name>DeleteCourse</servlet-name>
         <url-pattern>/DeleteCourse</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DeleteBatch</servlet-name>
+        <url-pattern>/DeleteBatch</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DeleteFaculty</servlet-name>
+        <url-pattern>/DeleteFaculty</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
