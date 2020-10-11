@@ -9,16 +9,12 @@
                 response.sendRedirect("index.jsp");
             }
         %>
-        <h3>Welcome <%out.println(session.getAttribute("userid"));%></h3>
+        <h2>Learn Programming</h2>
+        <h3>Delete Batch/Delete Course</h3>
         <hr>
-        <pre>
-        <a href="ShowAllCourses">View-All-Courses</a>
-        <a href="csearch.jsp">Search-Course</a>
-        <a href="ShowAllFaculty">View-Faculty-Details</a>
-        <a href="bsearch.jsp">Search-Batch</a>
-        <a href="ShowAllBatches">View-All-Batches</a>
-        <a href="Logout">Logout</a>
-        </pre>
-        <hr>
+        <h2><a href="deletebatch.jsp">Delete Batch</a></h2>
+        <h2><a href="deletecourse.jsp">Delete Course</a></h2>
+        
+        <a href="adminpage.jsp">Home</a>
     </body>
 </html>

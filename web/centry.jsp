@@ -26,6 +26,6 @@
             <input type="submit" value="Logout">
         </form>
         <hr>
-        <a href="index.jsp">Home</a>
+        <a href="adminpage.jsp">Home</a>
     </body>
 </html>

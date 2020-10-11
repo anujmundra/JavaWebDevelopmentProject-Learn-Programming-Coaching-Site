@@ -15,6 +15,8 @@
         <a href="centry.jsp">Add-New-Course</a>
         <a href="fentry.jsp">Add-Faculty-Details</a>
         <a href="batch.jsp">Add-New-Batch</a>
+        <a href="delete.jsp">Delete-Batch/Delete-Course</a>
+        <a href="deletefaculty.jsp">Delete-Faculty</a>
         <a href="Logout">Logout</a>
         </pre>
         <hr>

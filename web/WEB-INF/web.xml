@@ -44,6 +44,10 @@
         <servlet-name>Logout</servlet-name>
         <servlet-class>Logout</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>DeleteCourse</servlet-name>
+        <servlet-class>DeleteCourse</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>SaveUser</servlet-name>
         <url-pattern>/SaveUser</url-pattern>
@@ -87,6 +91,10 @@
     <servlet-mapping>
         <servlet-name>Logout</servlet-name>
         <url-pattern>/Logout</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DeleteCourse</servlet-name>
+        <url-pattern>/DeleteCourse</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
