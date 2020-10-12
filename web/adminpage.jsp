@@ -13,14 +13,23 @@
         <hr>
         <pre>
         <a href="centry.jsp">Add-New-Course</a>
+        
         <a href="fentry.jsp">Add-Faculty-Details</a>
+
         <a href="batch.jsp">Add-New-Batch</a>
-        <a href="ShowAllCourses">View-All-Courses</a>
-        <a href="ShowAllFaculty">View-Faculty-Details</a>
-        <a href="ShowAllBatches">View-All-Batches</a>
+
+        <a href="ShowAllCoursesAdmin">View-All-Courses</a>
+
+        <a href="ShowAllFacultyAdmin">View-Faculty-Details</a>
+
+        <a href="ShowAllBatchesAdmin">View-All-Batches</a>
+
         <a href="delete.jsp">Delete-Batch/Delete-Course</a>
+
         <a href="deletefaculty.jsp">Delete-Faculty</a>
+
         <a href="Logout">Logout</a>
+
         </pre>
         <hr>
     </body>

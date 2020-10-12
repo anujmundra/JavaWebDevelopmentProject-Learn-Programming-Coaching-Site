@@ -46,6 +46,7 @@
                 out.println("</tr>");
             }
             out.println("</table>");
+            out.println("<h4><a href=adminpage.jsp>Home</a></h4>");
             out.println("</body>");
             out.println("</html>");
             con.close();

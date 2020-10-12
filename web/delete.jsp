@@ -12,8 +12,8 @@
         <h2>Learn Programming</h2>
         <h2>Delete Batch/Delete Course</h2>
         <hr>
-        <h2><a href="deletebatch.jsp">Delete Batch</a></h2>
-        <h2><a href="deletecourse.jsp">Delete Course</a></h2>
+        <h3><a href="deletebatch.jsp">Delete Batch</a></h3>
+        <h3><a href="deletecourse.jsp">Delete Course</a></h3>
         
         <a href="adminpage.jsp">Home</a>
     </body>

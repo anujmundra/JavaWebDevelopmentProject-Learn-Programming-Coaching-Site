@@ -56,6 +56,18 @@
         <servlet-name>DeleteFaculty</servlet-name>
         <servlet-class>DeleteFaculty</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>ShowAllFacultyAdmin</servlet-name>
+        <servlet-class>ShowAllFacultyAdmin</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ShowAllBatchesAdmin</servlet-name>
+        <servlet-class>ShowAllBatchesAdmin</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ShowAllCoursesAdmin</servlet-name>
+        <servlet-class>ShowAllCoursesAdmin</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>SaveUser</servlet-name>
         <url-pattern>/SaveUser</url-pattern>
@@ -111,6 +123,18 @@
     <servlet-mapping>
         <servlet-name>DeleteFaculty</servlet-name>
         <url-pattern>/DeleteFaculty</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ShowAllFacultyAdmin</servlet-name>
+        <url-pattern>/ShowAllFacultyAdmin</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ShowAllBatchesAdmin</servlet-name>
+        <url-pattern>/ShowAllBatchesAdmin</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ShowAllCoursesAdmin</servlet-name>
+        <url-pattern>/ShowAllCoursesAdmin</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
